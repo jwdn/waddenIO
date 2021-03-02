@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
     background: ${themes.default.darkpurple};
     color: white;
     overflow-x: hidden !important;  
+    overflow-y: hidden;
     max-width: 100%;
     }
 `

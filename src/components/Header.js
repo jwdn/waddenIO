@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Wrapper } from "./styles/GlobalStyle"
-import { HeaderLabel, ButtonLabel } from "./styles/TextStyles"
+import { HeaderLabel } from "./styles/TextStyles"
 import Menu from "./Menu"
 
 export default function Header() {
@@ -46,13 +46,6 @@ const HeaderContentWrapper = styled.div`
     // TODO test and fix
     max-width: 1000px;
   }
-`
-const HeaderMenuWrapper = styled.div`
-  width: 320px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-self: center;
-  justify-self: flex-end;
 `
 const HeaderLabelWrapper = styled.div`
   width: 200px;
