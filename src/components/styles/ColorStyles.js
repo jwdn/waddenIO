@@ -12,5 +12,7 @@ export const themes = {
   },
   fancy: {
     backgroundGradient: `radial-gradient(50% 18.54% at 0% 100%, #000033 0%, rgba(0, 0, 51, 0) 100%), radial-gradient(98.75% 38% at 0% 32.31%, #000033 0%, rgba(0, 0, 51, 0) 100%), radial-gradient(50% 19.24% at 100% 69.88%, #000033 0%, rgba(0, 0, 51, 0) 100%), #280184`,
+    pinkGradient: `linear-gradient(180deg, #FF66CC 0%, #BA55DD 87.33%)`,
+    darkBlueGradient: `linear-gradient(91.12deg, #280184 3.37%, #000033 100%)`,
   },
 }

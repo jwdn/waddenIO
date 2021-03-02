@@ -30,8 +30,8 @@ const HeaderWrapper = styled(Wrapper)`
 `
 const HeaderContentWrapper = styled.div`
   // Mobile 320-767px
-  width: 100%;
-  max-width: 320px;
+  width: 87.5%;
+  //max-width: 320px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -39,12 +39,12 @@ const HeaderContentWrapper = styled.div`
 
   // Tablet 768-1023px
   @media screen and (min-width: 768px) {
-    max-width: 660px;
+    width: 660px;
   }
   // Desktop 1024px+
   @media screen and (min-width: 1024px) {
     // TODO test and fix
-    max-width: 1000px;
+    width: 1000px;
   }
 `
 const HeaderLabelWrapper = styled.div`

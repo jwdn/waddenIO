@@ -36,6 +36,7 @@ export const Callout = styled.p`
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
+  opacity: 75%;
   letter-spacing: 0.02em;
   // Mobile
   font-size: 24px;

@@ -24,8 +24,8 @@ const FooterWrapper = styled(Wrapper)`
 `
 const FooterContentWrapper = styled.div`
   // Mobile 320-767px
-  width: 100%;
-  max-width: 320px;
+  width: 87.5%;
+  //max-width: 320px;
   display: grid;
   grid-template-rows: 1fr;
   align-items: flex-start;
@@ -33,11 +33,11 @@ const FooterContentWrapper = styled.div`
 
   // Tablet 768-1023px
   @media screen and (min-width: 768px) {
-    max-width: 660px;
+    width: 660px;
   }
   // Desktop 1024px+
   @media screen and (min-width: 1024px) {
-    max-width: 1000px;
+    width: 1000px;
   }
 `
 
