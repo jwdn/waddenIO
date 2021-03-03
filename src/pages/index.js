@@ -27,7 +27,7 @@ function IndexPage() {
       <Responsive />
       <Beyond />
       <WaveUp color={"#66ffcc"} />
-      <Contact />
+      <Contact id="contact" />
       <WaveDn color={"#66ffcc"} />
       <Footer />
     </Layout>

@@ -13,9 +13,9 @@ export default function Intro() {
             Designing and building great apps that bring your ideas to life.
           </Heading>
           <IntroBody>
-            I’m a UI Designer and Web Developer living in Halifax, NS Canada. As
-            a recent Bachelor of Computer Science graduate, I’m just getting
-            started, and I can’t wait to see what we can build together.
+            I’m a UI Designer and Web Developer living in Halifax, NS Canada.
+            <br /> I'm a recent Bachelor of Computer Science graduate, and I
+            can’t wait to see what we can build together.
           </IntroBody>
         </IntroTextWrapper>
       </IntroContentWrapper>

@@ -39,6 +39,7 @@ const ButtonWrapper = styled.div`
   justify-items: center;
   gap: 6px;
   width: 180px;
+  height: 96px;
   padding: 10px;
   border-radius: 18px;
 

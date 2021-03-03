@@ -33,13 +33,13 @@ export const ContentWrapper = styled.div`
   // vertical spacing between elements is always 32px
   gap: 32px;
 
-  // Tablet 768-1023px
+  // Tablet 768-1032px
   @media screen and (min-width: 768px) {
     // Same content layout as Mobile
     width: 660px;
   }
-  // Desktop 1024px+
-  @media screen and (min-width: 1024px) {
+  // Desktop 1032px+
+  @media screen and (min-width: 1032px) {
     width: 1000px;
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;

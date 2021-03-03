@@ -26,7 +26,7 @@ export default function ContactMenu() {
 
 const MenuWrapper = styled.div`
   width: 100%;
-  gap: 32px;
+  gap: 36px;
   display: grid;
   grid-template-columns: 160px 160px 160px;
   justify-content: space-between;

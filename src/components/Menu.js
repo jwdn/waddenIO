@@ -11,14 +11,13 @@ export default function Menu() {
         link="https://www.linkedin.com/in/jonwadden"
       />
       <MenuButton label="GitHub" link="https://github.com/jwdn/waddenIO" />
-      <MenuButton label="Say Hi" link="mailto:jon@wadden.io" />
     </MenuWrapper>
   )
 }
 
 const MenuWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 80px);
+  grid-template-columns: repeat(3, 80px);
   gap: 16px;
   align-self: center;
   justify-self: flex-end;
