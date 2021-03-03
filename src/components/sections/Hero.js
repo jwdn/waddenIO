@@ -24,16 +24,15 @@ export default function Hero() {
 const HeroTextWrapper = styled(TextWrapper)`
   justify-content: center;
   gap: 18px;
-  @media screen and (max-width: 767px) {
-    padding-top: 52px;
-  }
 `
 
 const HeroContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
   height: 65vh;
+  padding-top: 50%;
   @media screen and (min-width: 768px) {
-    height: 75vh;
+    height: 80vh;
+    padding-top: 20%;
   }
 `
 
