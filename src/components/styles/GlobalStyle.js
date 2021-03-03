@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
 `
 export const ContentWrapper = styled.div`
   // Mobile 320-767px
-  width: 320px;
+  width: 280px;
   //max-width: 320px;
   display: grid;
   //grid-template-rows: auto;
@@ -32,8 +32,11 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   // vertical spacing between elements is always 32px
   gap: 32px;
-  padding: 80px 0%;
+  padding: 60px 0%;
 
+  @media screen and (min-width: 360px) {
+    width: 320px;
+  }
   // Tablet 768-1032px
   @media screen and (min-width: 768px) {
     // Same content layout as Mobile
@@ -59,10 +62,17 @@ export const TextWrapper = styled.div`
 `
 
 export const ImageWrapper = styled.div`
-  transform: scale(0.8);
-  transform-origin: right;
-  @media screen and (max-width: 767px) {
-    transform: scale(1);
+  transform: scale(0.9);
+  transform-origin: left;
+  @media screen and (max-width: 1031px) {
     grid-row: 1;
+  }
+  @media screen and (min-width: 768px) {
+    transform: scale(0.6);
+    transform-origin: bottom left;
+  }
+  @media screen and (min-width: 1032px) {
+    transform: scale(0.8);
+    transform-origin: right;
   }
 `

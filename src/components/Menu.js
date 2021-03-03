@@ -22,6 +22,7 @@ const MenuWrapper = styled.div`
   justify-self: flex-end;
   justify-content: space-between;
   padding-top: 10px;
+  gap: 12px;
 
   @media screen and (max-width: 767px) {
     justify-self: center;

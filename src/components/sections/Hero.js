@@ -32,6 +32,9 @@ const HeroTextWrapper = styled(TextWrapper)`
 const HeroContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
   height: 65vh;
+  @media screen and (min-width: 768px) {
+    height: 85vh;
+  }
 `
 
 const Title = styled(H1)`

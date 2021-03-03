@@ -5,7 +5,7 @@ import styled from "styled-components"
 export default function WaveDn(props) {
   const { color } = props
   // warning, jank ahead.
-  if (window.matchMedia("min-width: 768px").matches) {
+  if (window.matchMedia("(min-width: 768px)").matches) {
     return (
       <Wrapper>
         <WaveWrapper>

@@ -48,8 +48,8 @@ const HeaderContentWrapper = styled.div`
     grid-template-columns: 1fr 1fr;
     width: 660px;
   }
-  // Desktop 1024px+
-  @media screen and (min-width: 1024px) {
+  // Desktop 1032px+
+  @media screen and (min-width: 1032px) {
     // TODO test and fix
     width: 1000px;
   }

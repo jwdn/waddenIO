@@ -55,11 +55,17 @@ const BodyText = styled(Body)`
     font-weight: bold;
   }
 `
+
 const FlippedImageWrapper = styled(ImageWrapper)`
-  transform: scale(0.8);
-  transform-origin: left;
-  @media screen and (max-width: 767px) {
-    transform: scale(1);
+  transform: scale(1);
+  grid-row: 1;
+  @media screen and (min-width: 768px) {
+    transform: scale(0.6);
     grid-row: 1;
+    transform-origin: bottom left;
+  }
+  @media screen and (min-width: 1032px) {
+    transform: scale(0.8);
+    transform-origin: left;
   }
 `

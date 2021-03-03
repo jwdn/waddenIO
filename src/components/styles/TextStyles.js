@@ -21,11 +21,11 @@ export const H2 = styled.h2`
   font-style: normal;
   font-weight: bold;
   line-height: 115%;
-  // Mobile
+  // Mobile & Tablet
   font-size: 40px;
 
-  // Tablet & Desktop
-  @media screen and (min-width: 768px) {
+  //  Desktop
+  @media screen and (min-width: 1032px) {
     font-size: 48px;
   }
 `
@@ -63,7 +63,7 @@ export const Body = styled.p`
   }
 
   // Desktop
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1032px) {
     font-size: 18px;
   }
 `
@@ -86,7 +86,6 @@ export const HeaderLabel = styled.h3`
   font-style: normal;
   font-weight: bold;
   line-height: 100%;
-  // All platforms share same sizing.
   font-size: 24px;
   color: white;
   @media screen and (max-width: 767px) {
