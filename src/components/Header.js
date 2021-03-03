@@ -21,26 +21,31 @@ export default function Header() {
 
 const HeaderWrapper = styled(Wrapper)`
   width: 100%;
-  height: 52px;
+
   background: rgba(0, 0, 51, 0.4);
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(16px);
   display: grid;
   justify-content: center;
-  position: fixed;
+  @media screen and (min-width: 768px) {
+    height: 52px;
+    position: fixed;
+  }
+
   z-index: 1000;
 `
 const HeaderContentWrapper = styled.div`
   // Mobile 320-767px
-  width: 87.5%;
+  width: 320px;
   //max-width: 320px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
   justify-content: center;
 
   // Tablet 768-1023px
   @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
     width: 660px;
   }
   // Desktop 1024px+
@@ -50,10 +55,15 @@ const HeaderContentWrapper = styled.div`
   }
 `
 const HeaderLabelWrapper = styled.div`
-  width: 200px;
+  width: 100%;
   height: 100%;
-  padding-top: 5px;
+
   display: grid;
   align-self: center;
-  justify-self: flex-start;
+  justify-self: center;
+  padding-top: 12px;
+  padding-bottom: 4px;
+  @media screen and (min-width: 768px) {
+    justify-self: flex-start;
+  }
 `

@@ -80,7 +80,7 @@ export const ButtonLabel = styled.p`
   color: white;
   text-align: center;
 `
-// Button Labels
+// Header Label
 export const HeaderLabel = styled.h3`
   font-family: Gilroy;
   font-style: normal;
@@ -89,4 +89,7 @@ export const HeaderLabel = styled.h3`
   // All platforms share same sizing.
   font-size: 24px;
   color: white;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 `

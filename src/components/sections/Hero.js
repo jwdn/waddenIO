@@ -28,8 +28,8 @@ const HeroTextWrapper = styled(TextWrapper)`
 
 const HeroContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
-  padding-top: 20%;
-  padding-bottom: 20%;
+
+  height: 80vh;
 `
 
 const Title = styled(H1)`

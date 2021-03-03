@@ -30,6 +30,10 @@ const IntroWrapper = styled(Wrapper)`
 
 const IntroTextWrapper = styled(TextWrapper)`
   justify-content: center;
+  @media screen and (max-width: 767px) {
+    padding: 50px 0px;
+  }
+
   gap: 18px;
 `
 

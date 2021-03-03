@@ -18,8 +18,14 @@ export default function Menu() {
 const MenuWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 80px);
-  gap: 16px;
   align-self: center;
   justify-self: flex-end;
   justify-content: space-between;
+
+  @media screen and (max-width: 767px) {
+    justify-self: center;
+    justify-content: space-evenly;
+    width: 320px;
+    padding-bottom: 4px;
+  }
 `

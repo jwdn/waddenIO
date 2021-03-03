@@ -16,10 +16,9 @@ export default function MenuButton(props) {
 const Wrapper = styled.div`
   width: 80px;
   padding: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
   transition: 0.5s ease-out;
   border-radius: 20px;
+  justify-content: center;
 
   :hover {
     background: rgba(255, 255, 255, 0.1);
