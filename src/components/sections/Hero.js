@@ -28,11 +28,18 @@ const HeroTextWrapper = styled(TextWrapper)`
 
 const HeroContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
-  height: 65vh;
-  padding-top: 50%;
+
+  height: 60vh;
+  padding-top: 60%;
+  padding-bottom: 10%;
+
   @media screen and (min-width: 768px) {
-    height: 80vh;
-    padding-top: 20%;
+    padding-top: 35%;
+    padding-bottom: 20%;
+  }
+  @media screen and (min-width: 1032px) {
+    height: 65vh;
+    padding-top: 50%;
   }
 `
 

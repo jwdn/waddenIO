@@ -17,8 +17,8 @@ export default function ContactMenu() {
       />
       <ContactButton
         image="/images/icons/phone.svg"
-        text="(902) 222-0591"
-        link="tel:9022220591"
+        text="(782) 640-1940"
+        link="tel:7826401940"
       />
     </MenuWrapper>
   )
@@ -33,7 +33,7 @@ const MenuWrapper = styled.div`
   justify-self: center;
   @media screen and (max-width: 767px) {
     grid-template-columns: 1fr;
-    gap: 4px;
+    gap: 12px;
     justify-content: center;
   }
 `

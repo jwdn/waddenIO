@@ -62,7 +62,7 @@ export const TextWrapper = styled.div`
 `
 
 export const ImageWrapper = styled.div`
-  transform: scale(0.9);
+  transform: scale(1);
   transform-origin: left;
   @media screen and (max-width: 1031px) {
     grid-row: 1;

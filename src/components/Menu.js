@@ -5,7 +5,7 @@ import MenuButton from "./buttons/MenuButton"
 export default function Menu() {
   return (
     <MenuWrapper>
-      <MenuButton label="Resume" link="/files/JonWadden_Resume.pdf" />
+      <MenuButton label="Resume" link="files/JonWadden_Resume.pdf" />
       <MenuButton
         label="LinkedIn"
         link="https://www.linkedin.com/in/jonwadden"
