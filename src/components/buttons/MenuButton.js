@@ -1,15 +1,14 @@
 import React from "react"
 import styled from "styled-components"
 import { ButtonLabel } from "../styles/TextStyles"
-import AnchorLink from "react-anchor-link-smooth-scroll"
 
 export default function MenuButton(props) {
   const { label, link } = props
   return (
     <Wrapper>
-      <AnchorLink href={link}>
+      <a href={link}>
         <ButtonLabel>{label}</ButtonLabel>
-      </AnchorLink>
+      </a>
     </Wrapper>
   )
 }
