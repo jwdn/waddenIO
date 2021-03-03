@@ -11,8 +11,10 @@ export const themes = {
     grayText: `rgba(153, 153, 153, 1.0)`, // gray
   },
   fancy: {
-    backgroundGradient: `radial-gradient(50% 18.54% at 0% 100%, #000033 0%, rgba(0, 0, 51, 0) 100%), radial-gradient(98.75% 38% at 0% 32.31%, #000033 0%, rgba(0, 0, 51, 0) 100%), radial-gradient(50% 19.24% at 100% 69.88%, #000033 0%, rgba(0, 0, 51, 0) 100%), #280184`,
-    pinkGradient: `linear-gradient(180deg, #FF66CC 0%, #BA55DD 87.33%)`,
+    backgroundGradient: `radial-gradient(50.43% 99.43% at 0% 100%, #000033 0%, #220064 47.92%, rgba(40, 1, 132, 0) 100%), radial-gradient(50.41% 99.21% at 100% 0%, #000033 0%, #220064 49.48%, rgba(40, 1, 132, 0) 100%), #280184`,
+    pinkGradient: `linear-gradient(93.26deg, #FF66CC 1.74%, #FFADCB 96.91%);`,
     darkBlueGradient: `linear-gradient(91.12deg, #280184 3.37%, #000033 100%)`,
+    lightBlueGradient: `linear-gradient(180deg, #33FFF3 0%, #51BFEE 100%)`,
+    greenGradient: `linear-gradient(180deg, #66FFCC 0%, #61C3E2 100%)`,
   },
 }

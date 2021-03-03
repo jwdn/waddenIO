@@ -21,11 +21,6 @@ export default function Hero() {
   )
 }
 
-const WaveWrapper = styled.div`
-  width: 100%;
-  position: absolute;
-  //bottom: 0;
-`
 const HeroTextWrapper = styled(TextWrapper)`
   justify-content: center;
   gap: 18px;
@@ -33,7 +28,8 @@ const HeroTextWrapper = styled(TextWrapper)`
 
 const HeroContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
-  padding: 20% 0%;
+  padding-top: 20%;
+  padding-bottom: 20%;
 `
 
 const Title = styled(H1)`

@@ -35,7 +35,6 @@ const IntroTextWrapper = styled(TextWrapper)`
 
 const IntroContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
-  padding: 100px 0;
 `
 
 const Heading = styled(H2)`

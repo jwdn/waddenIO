@@ -20,7 +20,7 @@ export const H2 = styled.h2`
   font-family: Gilroy;
   font-style: normal;
   font-weight: bold;
-  line-height: 100%;
+  line-height: 115%;
   // Mobile
   font-size: 40px;
 

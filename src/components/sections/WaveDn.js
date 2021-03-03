@@ -53,6 +53,7 @@ const Wrapper = styled.div`
   position: relative;
   width: 100%;
   transform: rotate(180deg);
+  padding-top: 160px;
 `
 const WaveWrapper = styled.div`
   position: absolute;

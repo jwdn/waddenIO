@@ -52,6 +52,7 @@ export default function WaveUp(props) {
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
+  padding-top: 10%;
 `
 const WaveWrapper = styled.div`
   position: absolute;

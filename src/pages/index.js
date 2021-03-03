@@ -6,6 +6,10 @@ import SEO from "../components/layout/seo"
 
 import Hero from "../components/sections/Hero"
 import Intro from "../components/sections/Intro"
+import Design from "../components/sections/Design"
+import Responsive from "../components/sections/Responsive"
+import Beyond from "../components/sections/Beyond"
+import Contact from "../components/sections/Contact"
 
 import WaveUp from "../components/sections/WaveUp"
 import WaveDn from "../components/sections/WaveDn"
@@ -19,6 +23,12 @@ function IndexPage() {
       <WaveUp color={"#ff66cc"} />
       <Intro />
       <WaveDn color={"#ff66cc"} />
+      <Design />
+      <Responsive />
+      <Beyond />
+      <WaveUp color={"#66ffcc"} />
+      <Contact />
+      <WaveDn color={"#66ffcc"} />
       <Footer />
     </Layout>
   )

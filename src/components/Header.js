@@ -21,12 +21,14 @@ export default function Header() {
 
 const HeaderWrapper = styled(Wrapper)`
   width: 100%;
-  height: 44px;
+  height: 52px;
   background: rgba(0, 0, 51, 0.4);
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(16px);
   display: grid;
   justify-content: center;
+  position: fixed;
+  z-index: 1000;
 `
 const HeaderContentWrapper = styled.div`
   // Mobile 320-767px
@@ -50,6 +52,7 @@ const HeaderContentWrapper = styled.div`
 const HeaderLabelWrapper = styled.div`
   width: 200px;
   height: 100%;
+  padding-top: 5px;
   display: grid;
   align-self: center;
   justify-self: flex-start;

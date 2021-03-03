@@ -15,7 +15,7 @@ export default function Footer() {
 
 const FooterWrapper = styled(Wrapper)`
   width: 100%;
-  height: 44px;
+  height: 52px;
   background: rgba(0, 0, 51, 0.4);
   box-shadow: 0px 0px -4px rgba(0, 0, 0, 0.25);
   backdrop-filter: blur(16px);
@@ -24,8 +24,7 @@ const FooterWrapper = styled(Wrapper)`
 `
 const FooterContentWrapper = styled.div`
   // Mobile 320-767px
-  width: 87.5%;
-  //max-width: 320px;
+  width: 320px;
   display: grid;
   grid-template-rows: 1fr;
   align-items: flex-start;
