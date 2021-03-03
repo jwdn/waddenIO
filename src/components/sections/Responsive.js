@@ -21,9 +21,7 @@ export default function Responsive() {
           />
         </FlippedImageWrapper>
         <TextWrapper>
-          <Heading>
-            <span>Responsive </span>to reach every screen.
-          </Heading>
+          <Heading>Responsive to reach every screen.</Heading>
           <BodyText>
             Today’s devices come in all shapes and sizes. I build apps using
             modern, responsive frameworks to reach as many platforms as
@@ -41,12 +39,10 @@ export default function Responsive() {
 }
 
 const Heading = styled(H2)`
-  span {
-    background: ${themes.fancy.lightBlueGradient};
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
+  background: ${themes.fancy.lightBlueGradient};
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 `
 
 const BodyText = styled(Body)`
@@ -62,4 +58,8 @@ const BodyText = styled(Body)`
 const FlippedImageWrapper = styled(ImageWrapper)`
   transform: scale(0.8);
   transform-origin: left;
+  @media screen and (max-width: 767px) {
+    transform: scale(1);
+    grid-row: 1;
+  }
 `

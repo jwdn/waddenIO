@@ -25,7 +25,6 @@ export default function ContactButton(props) {
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -39,7 +38,7 @@ const ButtonWrapper = styled.div`
   justify-items: center;
   gap: 6px;
   width: 180px;
-  height: 96px;
+  height: 80px;
   padding: 10px;
   border-radius: 18px;
 

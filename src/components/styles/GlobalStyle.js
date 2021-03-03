@@ -32,6 +32,7 @@ export const ContentWrapper = styled.div`
   justify-content: center;
   // vertical spacing between elements is always 32px
   gap: 32px;
+  padding: 80px 0%;
 
   // Tablet 768-1032px
   @media screen and (min-width: 768px) {
@@ -60,4 +61,8 @@ export const TextWrapper = styled.div`
 export const ImageWrapper = styled.div`
   transform: scale(0.8);
   transform-origin: right;
+  @media screen and (max-width: 767px) {
+    transform: scale(1);
+    grid-row: 1;
+  }
 `

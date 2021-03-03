@@ -101,6 +101,9 @@ const Wrapper = styled.div`
   width: 100%;
   transform: rotate(180deg);
   padding-top: 160px;
+  @media screen and (max-width: 767px) {
+    padding-top: 200px;
+  }
 `
 const WaveWrapper = styled.div`
   position: absolute;

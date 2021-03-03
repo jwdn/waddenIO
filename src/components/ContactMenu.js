@@ -31,4 +31,9 @@ const MenuWrapper = styled.div`
   grid-template-columns: 160px 160px 160px;
   justify-content: space-between;
   justify-self: center;
+  @media screen and (max-width: 767px) {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    justify-content: center;
+  }
 `

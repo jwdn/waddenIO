@@ -21,11 +21,13 @@ const MenuWrapper = styled.div`
   align-self: center;
   justify-self: flex-end;
   justify-content: space-between;
+  padding-top: 10px;
 
   @media screen and (max-width: 767px) {
     justify-self: center;
     justify-content: space-evenly;
     width: 320px;
     padding-bottom: 4px;
+    padding-top: 0px;
   }
 `

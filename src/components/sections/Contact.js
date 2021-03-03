@@ -25,15 +25,23 @@ export default function Contact() {
 }
 
 const ContactWrapper = styled(Wrapper)`
+  width: 100%;
   background-color: ${themes.default.green};
   position: relative;
   padding-top: 10px;
   padding-bottom: 10px;
+  @media screen and (max-width: 767px) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 `
 
 const ContactTextWrapper = styled(TextWrapper)`
   justify-content: center;
   gap: 18px;
+  @media screen and (max-width: 767px) {
+    width: 320px;
+  }
 `
 
 const ContactContentWrapper = styled(ContentWrapper)`
@@ -41,6 +49,10 @@ const ContactContentWrapper = styled(ContentWrapper)`
   grid-template-columns: 1fr;
   justify-content: center;
   justify-items: center;
+
+  @media screen and (max-width: 767px) {
+    padding: 30px 0px;
+  }
 `
 
 const Heading = styled(H2)`
@@ -49,6 +61,9 @@ const Heading = styled(H2)`
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+  @media screen and (max-width: 767px) {
+    font-size: 54px;
+  }
 `
 
 const ContactBody = styled(Body)`

@@ -14,9 +14,7 @@ export default function Beyond() {
     <Wrapper>
       <ContentWrapper>
         <TextWrapper>
-          <Heading>
-            Building <span>beyond </span>the browser.
-          </Heading>
+          <Heading>Building beyond the browser.</Heading>
           <BodyText>
             Outside of building web apps with React, I have experience with a
             whole bunch of platforms and languages. I’ve explored mobile
@@ -40,12 +38,10 @@ export default function Beyond() {
 }
 
 const Heading = styled(H2)`
-  span {
-    background: ${themes.fancy.greenGradient};
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
+  background: ${themes.fancy.greenGradient};
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 `
 
 const BodyText = styled(Body)`

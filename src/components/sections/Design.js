@@ -14,9 +14,7 @@ export default function Design() {
     <Wrapper>
       <ContentWrapper>
         <TextWrapper>
-          <Heading>
-            <span>Great design </span>makes all the difference.
-          </Heading>
+          <Heading>Great design makes all the difference.</Heading>
           <BodyText>
             Design sets great apps apart from the rest. That’s why I’m
             passionate about creating beautiful, easy-to-use experiences. From
@@ -42,12 +40,10 @@ export default function Design() {
 }
 
 const Heading = styled(H2)`
-  span {
-    background: ${themes.fancy.pinkGradient};
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-  }
+  background: ${themes.fancy.pinkGradient};
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 `
 
 const BodyText = styled(Body)`

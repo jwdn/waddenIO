@@ -99,7 +99,10 @@ export default function WaveUp(props) {
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
-  padding-top: 10%;
+  padding-top: 160px;
+  @media screen and (max-width: 767px) {
+    padding-top: 200px;
+  }
 `
 const WaveWrapper = styled.div`
   position: absolute;

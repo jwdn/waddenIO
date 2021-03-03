@@ -64,6 +64,7 @@ const HeaderLabelWrapper = styled.div`
   padding-top: 12px;
   padding-bottom: 4px;
   @media screen and (min-width: 768px) {
+    padding-top: 16px;
     justify-self: flex-start;
   }
 `
